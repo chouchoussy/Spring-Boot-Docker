@@ -1,3 +1,7 @@
+# Outline 
+1. Chạy ứng dụng không cần dùng Docker
+2. Chạy ứng dụng với Docker
+3. Chạy ứng dụng K8s
 # Chạy ứng dụng không cần dùng Docker
 ##### Buid 
 ``` ./mvnw package ```
