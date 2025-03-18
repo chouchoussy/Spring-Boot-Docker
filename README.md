@@ -54,8 +54,10 @@ Sử dụng lệnh ``` docker images spring-k8s/hello-spring-k8s ``` để kiể
 - Tạo file `deployment.yaml` và `service.yaml`
 - Chuyển tiếp cổng để truy cập service
   ``` kubectl port-forward svc/gs-spring-boot-k8s 9090:80 ```
-- Kiểm tra:
+- Kiểm tra trên localhost
   ![image](https://github.com/user-attachments/assets/f3658158-bdd2-4217-9692-a4c66b7ca2f3)
+- Kiểm tra trên terminal
+  ![image](https://github.com/user-attachments/assets/25607a4e-0591-422c-91de-fd70a93d361c)
 - Trên giao diện docker
   ![image](https://github.com/user-attachments/assets/222a0968-5a5e-42ab-8e45-f41d14012f50)
 
