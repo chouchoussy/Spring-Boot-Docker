@@ -66,6 +66,9 @@ Sử dụng lệnh ``` docker images spring-k8s/hello-spring-k8s ``` để kiể
 ###### Kiểm tra trạng thái sẽ thấy pod và service của gs-hello-caller xuất hiện.
 ![image](https://github.com/user-attachments/assets/6675fc07-581a-4a71-aa12-efe0726d2994)
 
+###### Các POD chạy tại Docker
+![image](https://github.com/user-attachments/assets/c6c693a2-3a86-4034-ae26-b4b4fff748ee)
+
 ###### Truy cập localhost:9090 sẽ thấy phản hồi từ các pod khác nhau của hello-spring-k8s
 ![image](https://github.com/user-attachments/assets/d249970f-186b-47ac-8843-1959d9baa364)
 ![image](https://github.com/user-attachments/assets/9b59a8ed-7bb0-4c67-b5fc-d842ff639f5e)
