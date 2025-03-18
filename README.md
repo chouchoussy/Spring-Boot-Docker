@@ -71,6 +71,8 @@ Sử dụng lệnh ``` docker images spring-k8s/hello-spring-k8s ``` để kiể
 ![image](https://github.com/user-attachments/assets/9b59a8ed-7bb0-4c67-b5fc-d842ff639f5e)
 ![image](https://github.com/user-attachments/assets/d99579ae-94e4-4899-93a4-1ba1eb4db802)
 ![image](https://github.com/user-attachments/assets/eb76cb30-5207-4e2a-a364-e644a43828da)
+![image](https://github.com/user-attachments/assets/d3400ec5-c799-4ba9-b0b4-821d08a4f336)
+
 
 
 
