@@ -2,6 +2,7 @@
 1. Chạy ứng dụng không cần dùng Docker
 2. Chạy ứng dụng với Docker
 3. Chạy ứng dụng K8s
+4. Service Discovery với ```hello-caller```
 # Chạy ứng dụng không cần dùng Docker
 ##### Buid 
 ``` ./mvnw package ```
@@ -60,5 +61,14 @@ Sử dụng lệnh ``` docker images spring-k8s/hello-spring-k8s ``` để kiể
   ![image](https://github.com/user-attachments/assets/25607a4e-0591-422c-91de-fd70a93d361c)
 - Trên giao diện docker
   ![image](https://github.com/user-attachments/assets/222a0968-5a5e-42ab-8e45-f41d14012f50)
+
+# Service Discovery với hello-caller
+###### Kiểm tra trạng thái sẽ thấy pod và service của gs-hello-caller xuất hiện.
+![image](https://github.com/user-attachments/assets/8da40726-dde7-4916-9d00-8b8711f9f133)
+
+###### Truy cập localhost:9090 sẽ thấy phản hồi từ các pod khác nhau của hello-spring-k8s
+![image](https://github.com/user-attachments/assets/d249970f-186b-47ac-8843-1959d9baa364)
+![image](https://github.com/user-attachments/assets/9b59a8ed-7bb0-4c67-b5fc-d842ff639f5e)
+
 
 
