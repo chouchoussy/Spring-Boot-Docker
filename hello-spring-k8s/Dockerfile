@@ -10,6 +10,9 @@ COPY .mvn .mvn
 COPY mvnw ./
 COPY mvnw.cmd ./
 
+# Cấp quyền thực thi cho mvnw
+RUN chmod +x mvnw
+
 # Tải dependencies
 RUN ./mvnw dependency:go-offline -B
 
