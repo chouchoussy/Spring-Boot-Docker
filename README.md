@@ -1,3 +1,8 @@
+# Outline 
+1. Chạy ứng dụng không cần dùng Docker
+2. Chạy ứng dụng với Docker
+3. Chạy ứng dụng K8s
+4. Service Discovery với ```hello-caller```
 # Chạy ứng dụng không cần dùng Docker
 ##### Buid 
 ``` ./mvnw package ```
@@ -50,9 +55,28 @@ Sử dụng lệnh ``` docker images spring-k8s/hello-spring-k8s ``` để kiể
 - Tạo file `deployment.yaml` và `service.yaml`
 - Chuyển tiếp cổng để truy cập service
   ``` kubectl port-forward svc/gs-spring-boot-k8s 9090:80 ```
-- Kiểm tra:
+- Kiểm tra trên localhost
   ![image](https://github.com/user-attachments/assets/f3658158-bdd2-4217-9692-a4c66b7ca2f3)
+- Kiểm tra trên terminal
+  ![image](https://github.com/user-attachments/assets/25607a4e-0591-422c-91de-fd70a93d361c)
 - Trên giao diện docker
   ![image](https://github.com/user-attachments/assets/222a0968-5a5e-42ab-8e45-f41d14012f50)
+
+# Service Discovery với hello-caller
+###### Kiểm tra trạng thái sẽ thấy pod và service của gs-hello-caller xuất hiện.
+![image](https://github.com/user-attachments/assets/6675fc07-581a-4a71-aa12-efe0726d2994)
+
+###### Các POD chạy tại Docker
+![image](https://github.com/user-attachments/assets/c6c693a2-3a86-4034-ae26-b4b4fff748ee)
+
+###### Truy cập localhost:9090 sẽ thấy phản hồi từ các pod khác nhau của hello-spring-k8s
+![image](https://github.com/user-attachments/assets/d249970f-186b-47ac-8843-1959d9baa364)
+![image](https://github.com/user-attachments/assets/9b59a8ed-7bb0-4c67-b5fc-d842ff639f5e)
+![image](https://github.com/user-attachments/assets/d99579ae-94e4-4899-93a4-1ba1eb4db802)
+![image](https://github.com/user-attachments/assets/eb76cb30-5207-4e2a-a364-e644a43828da)
+![image](https://github.com/user-attachments/assets/d3400ec5-c799-4ba9-b0b4-821d08a4f336)
+
+
+
 
 
